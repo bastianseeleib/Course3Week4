@@ -55,5 +55,5 @@ rm("test", "train", "test_subject", "test_activity", "test_features",
 result2 <- result %>% group_by(subject, activity) %>% summarise_each(mean)
 
 # write final dataset to file
-write.csv(result2, "tidy.csv")
+write.table(result2, "tidy.txt", row.names = FALSE)
 

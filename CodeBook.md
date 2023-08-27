@@ -3,7 +3,7 @@ Human Activity Recognition Using Smartphones:
 http://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones
 
 # Dataset
-The resulting dataset (found in tidy.csv) consists of the following columns:
+The resulting dataset (found in tidy.txt) consists of the following columns:
 
 * Subject
 The number of the test subject
