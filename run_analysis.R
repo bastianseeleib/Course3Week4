@@ -49,11 +49,11 @@ result <- select(result, subject, activity, contains("mean"), contains("std"))
 # remove unnecessary variables
 rm("test", "train", "test_subject", "test_activity", "test_features",
    "train_subject", "train_activity", "train_features", "activity_labels",
-   "feature_labels")
+   "feature_labels", "n")
 
-# second dataset
+# creating the final dataset
 result2 <- result %>% group_by(subject, activity) %>% summarise_each(mean)
 
-# write second dataset to file
+# write final dataset to file
 write.csv(result2, "tidy.csv")
 
