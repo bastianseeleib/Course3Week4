@@ -1,8 +1,3 @@
----
-title: "Codebook Getting and Cleaning Data Course Project"
-output: html_document
----
-
 # Source
 Human Activity Recognition Using Smartphones: 
 http://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones
